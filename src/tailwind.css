@@ -1,0 +1,50 @@
+@tailwind base;
+
+@tailwind components;
+
+
+.navLink {
+    @apply text-sm;
+    @apply text-gray-400;
+    transition: all 230ms ease-in-out;
+    -webkit-transition: all 230ms ease-in-out;
+    -moz-transition: all 230ms ease-in-out;
+    -ms-transition: all 230ms ease-in-out;
+    -o-transition: all 230ms ease-in-out;
+}
+
+.navLink:hover {
+    @apply text-white;
+}
+
+
+.default-btn {
+    @apply py-2 ;
+    @apply px-5;
+    @apply text-sm;
+    transition: all 230ms ease-in-out;
+}
+
+.para {
+    font-size: 16px;
+    @apply leading-loose;
+    @apply text-gray-500;
+}
+
+/* .default-btn:hover {
+    @apply 
+} */
+
+.mobile-nav {
+   @apply text-base mb-8 border-b-2 pb-4 border-gray-600;
+}
+
+.navbar {
+    margin-top: -0px;
+}
+
+@tailwind utilities;
+
+
+
+
