@@ -1,9 +1,9 @@
 
-export default `
+// export default `
 
-    <header>thei is nigeira</header>
+//     <header>thei is nigeira</header>
 
-`
+// `
 
 
 

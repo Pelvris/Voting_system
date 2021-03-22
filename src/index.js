@@ -1,15 +1,14 @@
 
-import header from './modules/header'
+// import header from './modules/header'
 
-document.body.innerHTML = header;
+// document.body.innerHTML = header;
 
-console.log(header);
-
-
+// console.log(header);
 
 
 
 
 
-console.log('Hello World from fdgseress main file!');
-alert('hello')
+
+
+console.log('Hello World from fdgseress main file is goin well!');

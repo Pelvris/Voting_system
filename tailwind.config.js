@@ -5,6 +5,10 @@ module.exports = {
 
   theme: {
 
+    fontFamily: {
+      'OpenSans': ['Open Sans', 'sans-serif'],
+     },
+
     container: {
       center: true,
     },
