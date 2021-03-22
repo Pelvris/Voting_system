@@ -5,6 +5,8 @@ module.exports = {
 
   theme: {
 
+    // backgroundImage : true,
+
     fontFamily: {
       'OpenSans': ['Open Sans', 'sans-serif'],
      },
