@@ -598,7 +598,7 @@ video {
 .btn-default {
   box-sizing: border-box;
   border-radius: 3px;
-  padding: 28px;
+  padding: 20px 28px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -646,6 +646,32 @@ video {
   100% {
     background: url('../public/img/D730A779-8B5E-4183-86E0-AADBF2771309.jpg');
   }
+}
+
+.center-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  align-items: center;
+}
+
+.mordal-wrapper {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.477);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: none;
+  overflow:hidden
+}
+
+.c-center {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {

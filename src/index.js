@@ -1,14 +1,28 @@
 
 // import header from './modules/header'
 
-// document.body.innerHTML = header;
-
-// console.log(header);
+import {callOnModal, removeModal} from './modules/header'
 
 
+// calling to display modal when finished with the form
+
+callOnModal();
+
+// calling to remove modal when finished with the form
+
+removeModal()
 
 
 
 
 
-console.log('Hello World from fdgseress main file is goin well!');
+
+
+
+
+
+
+
+
+
+

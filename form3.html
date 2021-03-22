@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Card Detail Information</title>
+        <link rel="stylesheet" href="./public/build/tailwind.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>\
+
+    <script src="https://use.fontawesome.com/a8f22b6c2e.js"></script>
+    <body>
+       
+        <div class="">
+            <div class="container py-20 px-32">
+                <div class="flex">
+                    <div class="  relative w-2/4 mr-16  z-20  ">   
+                        <div class="flex justify-between items-center">
+                            <div class="border border-primary bg-border rounded-full text-3xl h-24 w-24 flex items-center justify-center ">
+                                <i class="fa fa-address-book-o" class="" aria-hidden="true"></i>
+                            </div>
+                             <hr class="w-3/12 border-primary">
+                            <div class="border border-primary bg-border rounded-full text-3xl h-24 w-24 flex items-center justify-center">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                             <hr class="w-3/12 border-primary">
+                            <div class=" bg-primary rounded-full text-border text-3xl h-24 w-24 flex items-center justify-center">
+                                <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                        <div class="mt-20 font-OpenSans " >
+                           <h3 class="font-semibold text-3xl text-primary-text">Card Detail Information</h3>
+
+                           <div class="mt-16">
+                               <form action="">
+                                <input type="text" placeholder="Serial Number" class="border border-border p-6 w-full rounded-md mb-8">
+                                <input type="text" placeholder="Card Number" class="border border-border p-6 w-full rounded-md mb-8">
+                                <input type="text" placeholder="NIN" class="border border-border p-6 w-full rounded-md mb-8">
+                                    <textarea name="user Info" placeholder="Enter Your Message" class="text-left border border-border p-6 w-full align-left rounded-md mb-8 h-36" >
+                                    </textarea>
+
+                                   <div class="flex mt-12 justify-between">
+                                    <a href="form2.html">
+                                        <button class="btn-default  text-primary-text border border-border  transition-all"><i class="fa fa-angle-left pr-6 " aria-hidden="true"></i> Back</button>
+                                    </a>
+                                    
+                                    <a href="form3.html" id="clickToShowMordal" class=" btn-default bg-primary text-yellow-50 hover:bg-green-400 transition-all">Proceed <i class="fa fa-angle-right pl-6 " aria-hidden="true"></i></button>
+                                    </a>
+                                </div>
+
+                               </form>
+                           </div>
+                        </div>
+
+                    </div>
+
+                    <!-- image transition --- to the right -->
+                    <div class="rounded-sm w-8/12  relative  z-30 font-OpenSans">
+                        <div class=" z-20 relative box-shadow rounded-md bg-gray-50">
+                            <div class="px-12 py-12">
+                                <img src="./public/img/638e0d56bda38510c5fbe073aacf8540.png" alt="" class="w-full mb-20 rounded-md">
+
+                                <div class="text-2xl text-primary-text flex  mb-8">
+                                    <img src="./public/img/googicon.png" alt="" class="pr-8"> 
+                                    <span class=" text-primary-text font-semibold pt-2">Personal Information Details</span>
+                                </div>
+                                <div class="text-2xl text-primary-text flex content-center mb-8 ">
+                                    <img src="./public/img/googicon.png" alt="" class="pr-8"> 
+                                    <span class=" text-primary-text font-semibold pt-2">Personal Information Details</span>
+                                </div>
+                                <div class="text-2xl text-primary-text flex content-center" >
+                                    <img src="./public/img/googicon.png" alt="" class="pr-8"> 
+                                    <span class=" text-primary-text font-semibold pt-2">Personal Information Details</span>
+                                </div>
+
+                                <h1 class="text-6xl py-8 text-primary font-extralight text-center">GOOD TO VOTE</h1>
+                            </div>
+                        </div>
+                        <div class="w-5/6 h-5/6 bg-primary rounded-md absolute bottom-0 right-0  -mr-72 -mb-36 "></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+
+        <div class="mordal-wrapper z-30" id="show_mordal">
+            <div class="py-10 px-24  bg-gray-50 rounded-md w-auto h-auto z-50 c-center text-center block font-OpenSans">
+                <img src="./public/img/goodiconlage.png" alt="" class="w-36 m-auto">
+                <h1 class="text-4xl font-bold text-primary-text py-6">Registration Successful</h1>
+                <p class="text-primary-text para pb-6 ">You are now registered and ready to vote</p>
+                <a href="#" class="removeMordal">
+                    <button class="btn-default bg-green-400 text-yellow-50 hover:bg-green-400 transition-all">Proceed</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="center-content z-0">
+            <img src="./public/img/watermark.png" alt="">
+        </div>
+
+
+
+
+
+
+
+
+        <script src="./public/build/main.js"></script>
+    </body>
+</html>
